@@ -5,6 +5,10 @@
     padding:0;
  }
 
+#header-container{
+   height:120px;
+}
+
 body {
     background-color: #302f38;
 }
