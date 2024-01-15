@@ -1,0 +1,219 @@
+.container{
+    display:flex; 
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    margin:auto;
+    max-width: 800px;
+}
+
+#title{ 
+    text-align: center;
+    align-self:center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 120px;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+}
+
+p{
+    text-align: left;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+#simanddata{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#simulation{
+    display:flex; 
+    flex-direction: column;
+    justify-content:center;
+    align-self:center;
+    border: solid;
+    color: rgb(73, 80, 139);
+}
+
+#data > p{
+    margin: 0px;
+    line-height: 150%;
+}
+
+#doors{
+    display: flex; 
+    flex-direction: row;
+}
+
+#doors div{
+    display:flex;
+    flex-wrap: wrap;
+    height:300px;
+    width:196px;
+    background-color:black;
+    margin:25px;
+    margin-top: 45px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#doors p{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+img{
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+#result{
+    text-align: center;
+}
+
+#data{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+}
+
+#table-container{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid rgb(73, 80, 139);
+    border-collapse: collapse;
+}
+
+th{
+    color: #d3d7eb;
+}
+
+td:nth-child(1),td:nth-child(2),td:nth-child(3){
+    border:black;
+}
+
+td:nth-child(4){
+    color: #918da6;
+}
+
+table{
+    margin-left: 150px;
+} 
+th{
+   width: 100px;
+}
+
+td{
+    width: 100px;
+    text-align: center;
+}
+
+.key-container {
+    margin-left: 20px; 
+    width:160px;
+    display:flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.key-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 25px;
+    margin-bottom: 8px;
+}
+
+.key-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+#adjustableSimulationAndData{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#adjustableSimulation{
+    display:flex;
+    flex-wrap:wrap;
+    height: 705px;
+    width: 708px;
+    border:solid;
+    color: rgb(73, 80, 139);
+    align-content: flex-start;
+}
+
+#adjustableSimulation > .item:first-child{
+    justify-self: center;
+}
+
+#adjustableSimulation div{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    flex: 1; 
+    align-items:center;
+    justify-content: center;
+}
+
+#adjustableSimulation > image{ 
+    border:solid; 
+    border-color: black;
+}
+
+#adjustableSimulation p{
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#settings{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+}
+
+#settings > p{
+    margin: 0px;
+    line-height: 150%;
+}
+
+#doorCountSlider{
+    margin-top: 50px;
+}
+
+#reveal{
+    height: 30px; 
+    width: 129px;
+    border:solid;
+    border-left:none;
+    border-color: rgb(73, 80, 139);
+}

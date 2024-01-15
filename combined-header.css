@@ -1,0 +1,70 @@
+.banner{
+    display: flex;
+    width: 100%;
+}
+
+#banner-title{ 
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    vertical-align: baseline;
+    padding: 30px 0px;
+    margin: 0px;
+    height: 120px;
+    background-color: #252529;
+    align-content: center;
+    justify-content: flex-start;
+ }
+
+ header h1{
+    display: flex;
+    color: green;
+    top: 40px;
+    left: 450px;
+    width: 300px;
+    text-align: left;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+ }
+
+ nav {
+    display: flex;
+    top: 90px;
+    left: 0px;
+    background-color: #666;
+    text-align: left;
+    Padding: 10px 0px;
+    margin: 0px;
+    width: 100%;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+ }
+
+nav a:hover{
+    background-color: aliceblue;
+}
+
+nav a{
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+ ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+  }
