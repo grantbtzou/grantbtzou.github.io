@@ -20,7 +20,7 @@ header {
 
  header h1{
     display: flex;
-    color: green;
+    color: rgb(35, 181, 211);
     top: 40px;
     left: 450px;
     width: 300px;
