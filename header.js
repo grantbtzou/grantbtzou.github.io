@@ -4,4 +4,4 @@ fetch("shared-header.html")
     .then(html => {
         document.getElementById('header-container').innerHTML = html;
     })
-    .catch(error => console.error('Error fetching header:', error));
+    
