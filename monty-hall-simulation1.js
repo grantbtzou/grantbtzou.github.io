@@ -88,7 +88,6 @@ function start2(startingDoor){
                     let remainingDoor = document.getElementById('sim1_door'+i);
                     let remainingDoorText = document.getElementById('sim1_door'+i+'_text');
                     remainingDoorText.textContent = 'SWITCH'; 
-                    remainingDoorText.style.color = 'white';
                     let remainingDoorImage = remainingDoor.querySelector('img'); 
                     remainingDoorImage.style.display = 'none';
                     globalRemainingDoorIndex_1 = i;
