@@ -1,1 +1,1 @@
-This repository contains the source code to my first personal website. The number one reason I made it was because I thought it would be really cool to make a visualization of the Monty Hall problem, and it was a good opportunity to learn HTML, CSS, and JavaScript. Check it out!
+This repository contains the source code to my first personal website. The number one reason I made it was because I thought it would be really cool to make a visualization of the Monty Hall problem, and it was a good opportunity to learn HTML, CSS, and JavaScript as well. Check it out!

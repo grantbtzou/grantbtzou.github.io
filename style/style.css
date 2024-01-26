@@ -28,14 +28,6 @@ p{
 h1, h2{
    color:#d3d7eb;
 }
- .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    padding: 20px 0px;
- }
 
  .column { 
     display: flex; 

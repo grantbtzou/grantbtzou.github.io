@@ -2,6 +2,23 @@
     width: 200px;
 }
 
+main{
+    position: relative;
+    min-height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px 0px 100px;
+ }
+
 footer{
-    margin-top:auto;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
 }
